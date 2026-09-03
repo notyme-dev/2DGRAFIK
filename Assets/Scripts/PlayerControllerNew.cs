@@ -40,7 +40,7 @@ public class PlayerControllerNew : MonoBehaviour
     private PlayerState previousPlayerState = PlayerState.GROUNDED;
     private Rigidbody2D rb;
     private float ground_ray_dist = 1f;
-    private float wall_ray_dist = .5f;
+    private float wall_ray_dist = 1f;
 
     private float last_wall_jump_time = 0.0f;
 
@@ -116,10 +116,10 @@ public class PlayerControllerNew : MonoBehaviour
             ChangeState(PlayerState.GROUNDED);
             velocity.y = 0.0f;
         }
-        hit = Physics2D.Raycast(transform.position, Vector2.right * -avatarRoot.transform.localScale.x, wall_ray_dist, LayerMask.GetMask("Ground"));
+        hit = Physics2D.Raycast(hand.transform.position, Vector2.right * -avatarRoot.transform.localScale.x, wall_ray_dist, LayerMask.GetMask("Ground"));
         if (hit.collider == null)
         {
-            Debug.DrawRay(transform.position, Vector2.right * avatarRoot.transform.localScale.x * wall_ray_dist, Color.blue);
+            Debug.DrawRay(hand.transform.position, Vector2.right * -avatarRoot.transform.localScale.x * wall_ray_dist, Color.blue);
             ChangeState(PlayerState.FALLING);
         }
     }
