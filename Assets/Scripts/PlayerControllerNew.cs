@@ -47,7 +47,6 @@ public class PlayerControllerNew : MonoBehaviour
     public GameObject debugText;
 
     
-
     enum PlayerState
     {
         GROUNDED,
@@ -126,7 +125,6 @@ public class PlayerControllerNew : MonoBehaviour
 
     private void UpdateFallingState()
     {   
-        
         if (previousPlayerState != PlayerState.ON_WALL) {
              velocity.x = moveInput.x * maxSpeed;
              velocity.x = Mathf.MoveTowards(velocity.x, 0, Time.deltaTime * maxSpeed * 2); // Apply friction when in the air
