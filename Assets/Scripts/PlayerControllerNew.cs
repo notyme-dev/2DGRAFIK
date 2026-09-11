@@ -134,7 +134,7 @@ public class PlayerControllerNew : MonoBehaviour
         int numrays = 5;
         Vector2 start_pos = new Vector2(foot.transform.position.x - 0.5f, foot.transform.position.y);
         hit = Physics2D.Raycast(start_pos, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
-        Debug.Log(hit.distance);
+        //Debug.Log(hit.distance);
         Debug.DrawRay(start_pos, Vector2.down * ground_ray_dist, Color.red);
         for(int i = 1; i < numrays; i++)
         {
@@ -153,7 +153,7 @@ public class PlayerControllerNew : MonoBehaviour
         if (hit.collider != null && hit.distance < 0.1f && Time.time - last_wall_jump_time > 0.01f)
         {
             Debug.DrawRay(transform.position, Vector2.right * Mathf.Sign(moveInput.x) * wall_ray_dist, Color.blue);
-            Debug.Log("On Wall");
+            //Debug.Log("On Wall");
             ChangeState(PlayerState.ON_WALL);
             avatarRoot.transform.localScale = new Vector3(-avatarRoot.transform.localScale.x, avatarRoot.transform.localScale.y, avatarRoot.transform.localScale.z); 
             velocity.y = 0.0f;
@@ -198,7 +198,7 @@ public class PlayerControllerNew : MonoBehaviour
             }
         }
 
-        debugText.GetComponent<Text>().text = "Position: " + transform.position.ToString() + "\nVelocity: " + velocity.ToString() + "\nState: " + currentPlayerState.ToString() + "\nPrevious State: " + previousPlayerState.ToString();
+        //debugText.GetComponent<Text>().text = "Position: " + transform.position.ToString() + "\nVelocity: " + velocity.ToString() + "\nState: " + currentPlayerState.ToString() + "\nPrevious State: " + previousPlayerState.ToString();
     }
 
     void FixedUpdate() 
