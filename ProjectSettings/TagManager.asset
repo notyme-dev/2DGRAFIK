@@ -41,5 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: sky
+    uniqueID: 3224964237
+    locked: 0
+  - name: BG
+    uniqueID: 1353821147
+    locked: 0
+  - name: player
+    uniqueID: 3349963867
+    locked: 0
+  - name: FG_sky
+    uniqueID: 4015501701
+    locked: 0
+  - name: FG
+    uniqueID: 2295290147
+    locked: 0
   m_RenderingLayers:
   - Default

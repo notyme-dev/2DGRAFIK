@@ -68,9 +68,9 @@ Material:
     m_Floats:
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
-    - _contrast: 3.14
+    - _contrast: 2.04
     - _opacity: 0.14
-    - _power: 1.57
+    - _power: 0.87
     - _scale: 18.19
     - _speed: 0.08
     m_Colors:
