@@ -20,12 +20,9 @@ public class WindParticle : MonoBehaviour
         CircleCollider2D collider = GetComponent<CircleCollider2D>();
         if (collider == null) return;
 
-        if (collider.IsTouchingLayers(LayerMask.GetMask("Player")))
-        {
-            last_contact_time = Time.time;
-            //isActive = false;
-             if (Vector2.Distance(transform.position, startPos) > 0.005f)
+        if (Vector2.Distance(transform.position, startPos) > 0.25f)
             {
+                last_contact_time = Time.time;
                 collider.isTrigger = true;
             }
             else {
@@ -34,6 +31,11 @@ public class WindParticle : MonoBehaviour
                     collider.isTrigger = false;
                 }
             }
+
+        if (collider.IsTouchingLayers(LayerMask.GetMask("Player")))
+        {
+            //isActive = false;
+             
             wasTouched = true;
         }
         else
@@ -46,5 +48,9 @@ public class WindParticle : MonoBehaviour
                 wasTouched = false;
             }
         }
+
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        Color col = collider.isTrigger ? new Color(1f,0.5f,0.5f) : new Color(1f,1f,1f);
+        sr.color = col;
     }
 }

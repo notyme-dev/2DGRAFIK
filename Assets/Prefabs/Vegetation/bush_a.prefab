@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 1629823954585309356}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.82102555, w: 0.5708915}
-  m_LocalPosition: {x: 1.612, y: -0.225, z: 0}
+  m_LocalPosition: {x: 1.607, y: -0.152, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -137,7 +137,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -202,7 +202,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
-  m_Radius: 0.22
+  m_Radius: 0.31
 --- !u!1 &3078554052702854446
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +212,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8984903326853126091}
-  - component: {fileID: 2436661713888555986}
   - component: {fileID: 5519939664378213815}
   m_Layer: 0
   m_Name: leaf_1
@@ -229,31 +228,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3078554052702854446}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.8934924, w: 0.44907835}
+  m_LocalRotation: {x: -0, y: -0, z: 0.90985656, w: 0.4149231}
   m_LocalPosition: {x: -1.149847, y: -0.04316044, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3324789416952936667}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 126.631}
---- !u!1183024399 &2436661713888555986
-LookAtConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3078554052702854446}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Weight: 1
-  m_RotationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationOffset: {x: 0, y: 0, z: 0}
-  m_Roll: 0
-  m_WorldUpObject: {fileID: 0}
-  m_UseUpObject: 0
-  m_Active: 0
-  m_IsLocked: 0
-  m_Sources: []
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 130.971}
 --- !u!114 &5519939664378213815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,8 +248,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   target: {fileID: 6171458220982757333}
-  maxAngle: 165
-  minAngle: 113
+  maxAngle: 154
+  minAngle: 130
 --- !u!1 &5310532041948028355
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,13 +395,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5468331412152562678}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.21148057, w: 0.9773822}
+  m_LocalRotation: {x: -0, y: -0, z: 0.23513328, w: 0.9719631}
   m_LocalPosition: {x: 1.054369, y: -0.44863892, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3324789416952936667}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20.181}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 27.199}
 --- !u!114 &376392705292557689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,8 +415,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoneLookAt
   target: {fileID: 1700000041979806748}
-  maxAngle: 51.8
-  minAngle: 18.1
+  maxAngle: 35
+  minAngle: 15
 --- !u!1 &6609726646934330971
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,8 +462,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BoneLookAt
   target: {fileID: 3288189316688616524}
-  maxAngle: 103.8
-  minAngle: 50.2
+  maxAngle: 90
+  minAngle: 60
 --- !u!1 &7020729215438140413
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +493,7 @@ Transform:
   m_GameObject: {fileID: 7020729215438140413}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.82102555, w: 0.5708915}
-  m_LocalPosition: {x: -1.677, y: 0.628, z: 0}
+  m_LocalPosition: {x: -1.708, y: 0.465, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -589,7 +570,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -654,7 +635,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
-  m_Radius: 0.22
+  m_Radius: 0.31
 --- !u!1 &8830532140036111021
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +796,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 0.1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -880,4 +861,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
-  m_Radius: 0.22
+  m_Radius: 0.31
