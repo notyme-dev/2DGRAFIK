@@ -5,6 +5,10 @@ public class WindParticleSystem : MonoBehaviour
     [SerializeField] private float windStrength = 5f;
     [SerializeField] private float windFrequency = 1f;
     [SerializeField] private float noiseScale = 1f;
+    [SerializeField] private float returnStrength = 1f;
+      [SerializeField] private float returnDistance = 1f;
+    [SerializeField] private float deacceleration = 1f;
+    [SerializeField] private float deaccScalar = 1f;
 
     private static readonly int[] permutation =
     {
@@ -41,15 +45,42 @@ public class WindParticleSystem : MonoBehaviour
         {
             if (child.GetComponent<Rigidbody2D>() == null) continue;
             if (child.GetComponent<WindParticle>() == null) continue;
+            if (child.GetComponent<SpriteRenderer>() == null) continue;
             Vector2 startPos = child.GetComponent<WindParticle>().startPos;
 
             float noise = PerlinNoise((child.transform.position.x + Time.time) * noiseScale, (child.transform.position.y + Time.time) * noiseScale);
+            float noise2 = PerlinNoise((child.transform.position.y + Time.time + 45234f) * noiseScale, (child.transform.position.x + Time.time + 12321f) * noiseScale);
+            noise = Mathf.Pow(noise, 3f);
+            noise2 = Mathf.Pow(noise2, 3f);
+
             Rigidbody2D rb = child.GetComponent<Rigidbody2D>();
-            Vector2 velocity = noise * new Vector2(Mathf.Sin(Time.time * windFrequency),0) * windStrength;
+            Vector2 velocity = rb.linearVelocity;
+            velocity += new Vector2(noise * Mathf.Sin(Time.time * windFrequency),noise2 * 0.3f * Mathf.Sin(Time.time * windFrequency)) * windStrength * Time.deltaTime;
             float dist = Vector2.Distance(child.transform.position, startPos);
             Vector2 direction = new Vector2(startPos.x - child.transform.position.x, startPos.y - child.transform.position.y).normalized;
-            velocity += direction * dist * 0.5f;
-            rb.linearVelocity = velocity;
+            //velocity += direction * returnStrength * Time.deltaTime;
+
+            /*
+                function easeOutCubic(x: number): number {
+                return 1 - Math.pow(1 - x, 3);
+
+                }
+
+            */
+
+            float damping = Mathf.Pow((dist / returnDistance), 3);
+
+            velocity += direction * damping * returnStrength * Time.deltaTime;
+            velocity = Vector2.MoveTowards(velocity, Vector2.zero, deacceleration * velocity.magnitude * deaccScalar * Time.deltaTime);
+             
+             rb.linearVelocity = velocity;
+            if (child.GetComponent<WindParticle>().isActive == false)
+            {
+                rb.linearVelocity = Vector2.zero;
+            }
+
+            SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
+            sr.color = new Color(noise,noise,noise);
         }
         //transform.position = startPos + new Vector2(Mathf.Sin(Time.time * windFrequency),0) * windStrength;
     }

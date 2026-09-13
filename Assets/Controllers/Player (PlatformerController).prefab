@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8550132962435984998}
   - component: {fileID: 8497626583803165959}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3141224368810782497}
   - component: {fileID: 2843102077870567970}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 8647699321768245109}
   - component: {fileID: 5231924087183927587}
   - component: {fileID: 6895222897491367872}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   - component: {fileID: 2083895655840585462}
   - component: {fileID: 8939257484375499031}
   - component: {fileID: 1781241734824715308}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 7357850521205981746}
   - component: {fileID: 1698871325780714635}
   - component: {fileID: 4641477033592056488}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7741765970308833308}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   - component: {fileID: 6708924174377740855}
   - component: {fileID: 7980655732421883210}
   - component: {fileID: 4444789458492523044}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player (PlatformerController)
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -786,7 +786,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5994342491655849929}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AvatarRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +822,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8225487343122582860}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
