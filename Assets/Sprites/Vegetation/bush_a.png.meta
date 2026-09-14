@@ -974,27 +974,27 @@ TextureImporter:
         rgba: 4278190335
     - name: leaf_1
       guid: 4dff14174d514b44db06ddd6f759047d
-      position: {x: 134.0033, y: 122.15965, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8780049, w: 0.47865167}
-      length: 60.21101
+      position: {x: 156.25887, y: 95.02617, z: 0}
+      rotation: {x: 0, y: 0, z: 0.8878888, w: 0.46005815}
+      length: 95.15945
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: leaf_2
       guid: 03f3633a88f6a3240852c5ca75af99ad
-      position: {x: 261.74414, y: 123.68393, z: 0}
-      rotation: {x: 0, y: 0, z: 0.48672745, w: 0.8735539}
-      length: 64.89168
+      position: {x: 242.5373, y: 98.98941, z: 0}
+      rotation: {x: 0, y: 0, z: 0.47147077, w: 0.8818817}
+      length: 96.05577
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4278255360
     - name: leaf_3
       guid: 2fbd2fc774264e6419ef1e212bc1b960
-      position: {x: 361.4369, y: 83.13611, z: 0}
-      rotation: {x: 0, y: 0, z: 0.2652425, w: 0.9641818}
-      length: 59.605164
+      position: {x: 327.59625, y: 67.892586, z: 0}
+      rotation: {x: 0, y: 0, z: 0.2441584, w: 0.9697354}
+      length: 96.573006
       parentId: -1
       color:
         serializedVersion: 2

@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 1629823954585309356}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.82102555, w: 0.5708915}
-  m_LocalPosition: {x: 1.607, y: -0.152, z: 0}
+  m_LocalPosition: {x: 1.945, y: 0.022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -137,7 +137,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.1
+  m_Mass: 0.0001
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -202,7 +202,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
-  m_Radius: 0.31
+  m_Radius: 0.21
 --- !u!1 &3078554052702854446
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,6 +250,7 @@ MonoBehaviour:
   target: {fileID: 6171458220982757333}
   maxAngle: 154
   minAngle: 130
+  smooth: 100
 --- !u!1 &5310532041948028355
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +279,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -18.34, y: -5.51, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1591, y: 1.1591, z: 1.1591}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3669153447182098305}
@@ -417,6 +418,7 @@ MonoBehaviour:
   target: {fileID: 1700000041979806748}
   maxAngle: 35
   minAngle: 15
+  smooth: 100
 --- !u!1 &6609726646934330971
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +466,7 @@ MonoBehaviour:
   target: {fileID: 3288189316688616524}
   maxAngle: 90
   minAngle: 60
+  smooth: 100
 --- !u!1 &7020729215438140413
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +496,7 @@ Transform:
   m_GameObject: {fileID: 7020729215438140413}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.82102555, w: 0.5708915}
-  m_LocalPosition: {x: -1.708, y: 0.465, z: 0}
+  m_LocalPosition: {x: -2.059, y: 0.682, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -570,7 +573,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.1
+  m_Mass: 0.0001
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -635,7 +638,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
-  m_Radius: 0.31
+  m_Radius: 0.21
 --- !u!1 &8830532140036111021
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,11 +686,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6aaea17bfc8a86f4485f7bd6b6d1be62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  windStrength: 12
-  windFrequency: 7.01
+  windStrength: 14.6
+  windFrequency: 10.74
   noiseScale: 1.4
   returnStrength: 44
-  returnDistance: 0.69
+  returnDistance: 0.84
   deacceleration: 1.43
   deaccScalar: 4.89
 --- !u!1 &8972197308467898326
@@ -719,7 +722,7 @@ Transform:
   m_GameObject: {fileID: 8972197308467898326}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.82102555, w: 0.5708915}
-  m_LocalPosition: {x: 0.28, y: 0.664, z: 0}
+  m_LocalPosition: {x: 0.389, y: 0.954, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -796,7 +799,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.1
+  m_Mass: 0.0001
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -861,4 +864,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
-  m_Radius: 0.31
+  m_Radius: 0.21

@@ -26,7 +26,7 @@ public class WindParticle : MonoBehaviour
                 collider.isTrigger = true;
             }
             else {
-                if(last_contact_time + contact_cooldown < Time.time)
+                if(last_contact_time + contact_cooldown < Time.time && !collider.IsTouchingLayers(LayerMask.GetMask("Player")))
                 {
                     collider.isTrigger = false;
                 }
