@@ -51,6 +51,6 @@ public class WindParticle : MonoBehaviour
 
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
         Color col = collider.isTrigger ? new Color(1f,0.5f,0.5f) : new Color(1f,1f,1f);
-        sr.color = col;
+        //sr.color = col;
     }
 }

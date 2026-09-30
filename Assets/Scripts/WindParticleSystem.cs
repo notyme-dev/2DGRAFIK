@@ -80,7 +80,7 @@ public class WindParticleSystem : MonoBehaviour
             }
 
             SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
-            //sr.color = new Color(noise,noise,noise);
+            sr.color = new Color(noise,noise,noise);
         }
         //transform.position = startPos + new Vector2(Mathf.Sin(Time.time * windFrequency),0) * windStrength;
     }
