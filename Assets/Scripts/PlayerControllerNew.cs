@@ -74,6 +74,23 @@ public class PlayerControllerNew : MonoBehaviour
         currentPlayerState = PlayerState.FALLING;
     }
 
+    private RaycastHit2D CheckGrounded()
+    {
+        RaycastHit2D hit;
+        int numrays = 5;
+        Vector2 start_pos = new Vector2(foot.transform.position.x - 0.3f, foot.transform.position.y);
+        hit = Physics2D.Raycast(start_pos, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
+        Debug.DrawRay(start_pos, Vector2.down * ground_ray_dist, Color.red);
+        for(int i = 1; i < numrays; i++)
+        {
+            if (hit.collider != null) break;
+            Vector2 ray_origin = new Vector2(start_pos.x + 0.5f / (numrays - 1) * i, start_pos.y);
+            hit = Physics2D.Raycast(ray_origin, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
+        }
+        return hit;
+    }
+
+
     void ChangeState(PlayerState newState)
     {
         previousPlayerState = currentPlayerState;
@@ -90,7 +107,7 @@ public class PlayerControllerNew : MonoBehaviour
             ChangeState(PlayerState.FALLING);
         }
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
+        RaycastHit2D hit = CheckGrounded();
         if (hit.collider == null)
         {
             Debug.DrawRay(transform.position, Vector2.down * ground_ray_dist, Color.red);
@@ -130,18 +147,9 @@ public class PlayerControllerNew : MonoBehaviour
              velocity.x = Mathf.MoveTowards(velocity.x, 0, Time.deltaTime * maxSpeed * 2); // Apply friction when in the air
         }
         // Check for ground
-        RaycastHit2D hit;
-        int numrays = 5;
-        Vector2 start_pos = new Vector2(foot.transform.position.x - 0.5f, foot.transform.position.y);
-        hit = Physics2D.Raycast(start_pos, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
+        RaycastHit2D hit = CheckGrounded();
         //Debug.Log(hit.distance);
-        Debug.DrawRay(start_pos, Vector2.down * ground_ray_dist, Color.red);
-        for(int i = 1; i < numrays; i++)
-        {
-            if (hit.collider != null) break;
-            Vector2 ray_origin = new Vector2(start_pos.x + 0.5f / (numrays - 1) * i, start_pos.y);
-            hit = Physics2D.Raycast(ray_origin, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
-        }
+        Debug.DrawRay(hit.point, Vector2.down * ground_ray_dist, Color.red);
         if (velocity.y <= 0 && hit.collider != null && hit.distance < 0.1f)
         {
             ChangeState(PlayerState.GROUNDED);

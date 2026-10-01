@@ -116,7 +116,7 @@ TextureImporter:
       name: interior_column_1
       rect:
         serializedVersion: 2
-        x: 94
+        x: 5
         y: 0
         width: 132
         height: 1024
@@ -141,12 +141,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_column_2
+      name: interior_column_door
       rect:
         serializedVersion: 2
-        x: 272
+        x: 152
         y: 0
-        width: 126
+        width: 128
         height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -166,6 +166,340 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: interior_column_2
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 133
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29505c687044644692f6565aaa4cb4c
+      internalID: 572248307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_platform_long
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 703
+        width: 449
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 224.5, y: 35}
+        - {x: -218.5, y: 35}
+        - {x: -224.5, y: 32}
+        - {x: -224.5, y: -34}
+        - {x: -222.5, y: -35}
+        - {x: 224.5, y: -35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a439fb981ed38547ab7b86a50de54e7
+      internalID: 976435995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_column_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1009
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6fd882ac7b29e44b46ecd60ba3e39f
+      internalID: 6221467370129424753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_column_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1009
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccf31176f8483440ac5375b2d57be98
+      internalID: -63121326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_platform_short
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 599
+        width: 270
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 135, y: -32}
+        - {x: 135, y: 35}
+        - {x: -134, y: 35}
+        - {x: -135, y: 33}
+        - {x: -135, y: -35}
+        - {x: 134, y: -35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1f0d72b2841494083489fe81673b31
+      internalID: 814833661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_platform_dmg_short
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 483
+        width: 176
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 88, y: 11}
+        - {x: 77, y: 34}
+        - {x: -87, y: 34}
+        - {x: -88, y: 32}
+        - {x: -88, y: -34}
+        - {x: 88, y: -34}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f26c41b6153f948b1576c6295aec87
+      internalID: 387265330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_dmg_mid
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 483
+        width: 265
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 130.5, y: -29}
+        - {x: 132.5, y: -13}
+        - {x: 132.5, y: -8}
+        - {x: 120.5, y: 33}
+        - {x: 91.5, y: 35}
+        - {x: -132.5, y: 35}
+        - {x: -132.5, y: -35}
+        - {x: 114.5, y: -35}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5f1668a89694b48b92ef22abb96fc5
+      internalID: -1634440956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_rebar1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 390
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451d0efb0371f6f4c9e5bfbbde349fb5
+      internalID: -1865516811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_rebar2
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 401
+        width: 108
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e978d0cb5708d949998e9b97ce63e1e
+      internalID: 2141996003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_rubble1
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 410
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3998bae72c4aa6a47a2d9a17eb0f33c6
+      internalID: -682445792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_column_12
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 411
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206083b3cdb329141a96eedcb9387b7c
+      internalID: -1681499912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_rebar3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 316
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b83745f7392554a9276eb9a01c6a10
+      internalID: -1785721181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_column_14
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 345
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6404c7bda99687c4593e67a3f47d2ad9
+      internalID: 1139282066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_column_15
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 354
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3a1124ed49e474ea36e26846af1f4a
+      internalID: 386379746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -180,11 +514,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       interior_column_0: 6221467370129424753
       interior_column_1: -472229317
-      interior_column_2: -365996753
+      interior_column_12: -1681499912
+      interior_column_14: 1139282066
+      interior_column_15: 386379746
+      interior_column_2: 572248307
+      interior_column_3: -63121326
+      interior_column_door: -365996753
+      interior_dmg_mid: -1634440956
+      interior_platform_dmg_short: 387265330
+      interior_platform_long: 976435995
+      interior_platform_short: 814833661
+      interior_rebar1: -1865516811
+      interior_rebar2: 2141996003
+      interior_rebar3: -1785721181
+      interior_rubble1: -682445792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
