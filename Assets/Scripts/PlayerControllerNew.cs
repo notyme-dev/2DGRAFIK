@@ -6,6 +6,7 @@ using UnityEngine.Events;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using Unity.VisualScripting;
 
 public class PlayerControllerNew : MonoBehaviour
 {
@@ -46,6 +47,10 @@ public class PlayerControllerNew : MonoBehaviour
 
     public GameObject debugText;
 
+    private Vector2 current_grounded_forward = Vector2.right;
+
+    private float ground_hit_distance = 0.1f;
+
     
     enum PlayerState
     {
@@ -79,14 +84,27 @@ public class PlayerControllerNew : MonoBehaviour
         RaycastHit2D hit;
         int numrays = 5;
         Vector2 start_pos = new Vector2(foot.transform.position.x - 0.3f, foot.transform.position.y);
-        hit = Physics2D.Raycast(start_pos, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
-        Debug.DrawRay(start_pos, Vector2.down * ground_ray_dist, Color.red);
+        start_pos = new Vector2(foot.transform.position.x, foot.transform.position.y) - current_grounded_forward * 0.3f;
+        hit = Physics2D.Raycast(start_pos, current_grounded_forward.Perpendicular1(), ground_ray_dist, LayerMask.GetMask("Ground"));
+        
+        float shortest = 534543f;
         for(int i = 1; i < numrays; i++)
         {
-            if (hit.collider != null) break;
-            Vector2 ray_origin = new Vector2(start_pos.x + 0.5f / (numrays - 1) * i, start_pos.y);
-            hit = Physics2D.Raycast(ray_origin, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
+            // weird early exit because we begin check before loop starts T_T STUPID BRAIN IDIOT THING
+            if (hit.collider != null && hit.distance < ground_hit_distance) break;
+            Vector2 ray_origin = new Vector2(foot.transform.position.x, foot.transform.position.y) - current_grounded_forward * 0.3f + current_grounded_forward * 0.5f / (numrays - 1) * i;
+            Debug.DrawRay(ray_origin, current_grounded_forward.Perpendicular1() * ground_ray_dist, Color.red);
+            hit = Physics2D.Raycast(ray_origin, current_grounded_forward.Perpendicular1(), ground_ray_dist, LayerMask.GetMask("Ground"));
         }
+        Vector2 normal = hit.normal;
+        if (hit && normal.Perpendicular1().y < 0.4f){ 
+            current_grounded_forward = normal.Perpendicular1();
+        } else
+        {
+            current_grounded_forward = Vector2.right;
+        }
+        Debug.DrawRay(foot.transform.position, current_grounded_forward * 0.5f, Color.green);
+        //Debug.Log("Grounded forward: " + current_grounded_forward.ToString());
         return hit;
     }
 
@@ -99,7 +117,9 @@ public class PlayerControllerNew : MonoBehaviour
 
     void UpdateGroundedState()
     {
-        velocity.x = moveInput.x * maxSpeed;
+
+        //velocity.x = moveInput.x * maxSpeed;
+        velocity = current_grounded_forward * moveInput.x * maxSpeed;
 
        if (jumpAction.IsPressed())
         {
@@ -108,9 +128,8 @@ public class PlayerControllerNew : MonoBehaviour
         }
 
         RaycastHit2D hit = CheckGrounded();
-        if (hit.collider == null)
+        if ((hit.collider == null) || hit.distance > ground_hit_distance)
         {
-            Debug.DrawRay(transform.position, Vector2.down * ground_ray_dist, Color.red);
             ChangeState(PlayerState.FALLING);
         }
     }
@@ -150,7 +169,7 @@ public class PlayerControllerNew : MonoBehaviour
         RaycastHit2D hit = CheckGrounded();
         //Debug.Log(hit.distance);
         Debug.DrawRay(hit.point, Vector2.down * ground_ray_dist, Color.red);
-        if (velocity.y <= 0 && hit.collider != null && hit.distance < 0.1f)
+        if (velocity.y <= 0 && hit.collider != null && hit.distance < ground_hit_distance)
         {
             ChangeState(PlayerState.GROUNDED);
             velocity.y = 0.0f;
