@@ -35,6 +35,8 @@ public class PlayerControllerNew : MonoBehaviour
     [SerializeField] private float wall_jump_repel = 1.0f;
     [SerializeField] private float wall_jump_force = 1.0f;
 
+     [SerializeField] private float falling_anim_delay = 0.1f;
+
     private Vector2 velocity;
     private Vector2 moveInput;
     private PlayerState currentPlayerState = PlayerState.FALLING;
@@ -50,6 +52,10 @@ public class PlayerControllerNew : MonoBehaviour
     private Vector2 current_grounded_forward = Vector2.right;
 
     private float ground_hit_distance = 0.1f;
+
+    private float started_falling = 0.0f;
+
+    private bool jumped = false;
 
     
     enum PlayerState
@@ -85,7 +91,7 @@ public class PlayerControllerNew : MonoBehaviour
         int numrays = 5;
         Vector2 start_pos = new Vector2(foot.transform.position.x - 0.3f, foot.transform.position.y);
         start_pos = new Vector2(foot.transform.position.x, foot.transform.position.y) - current_grounded_forward * 0.3f;
-        hit = Physics2D.Raycast(start_pos, current_grounded_forward.Perpendicular1(), ground_ray_dist, LayerMask.GetMask("Ground"));
+        hit = Physics2D.Raycast(start_pos, -Vector2.Perpendicular(current_grounded_forward), ground_ray_dist, LayerMask.GetMask("Ground"));
         
         float shortest = 534543f;
         for(int i = 1; i < numrays; i++)
@@ -93,12 +99,12 @@ public class PlayerControllerNew : MonoBehaviour
             // weird early exit because we begin check before loop starts T_T STUPID BRAIN IDIOT THING
             if (hit.collider != null && hit.distance < ground_hit_distance) break;
             Vector2 ray_origin = new Vector2(foot.transform.position.x, foot.transform.position.y) - current_grounded_forward * 0.3f + current_grounded_forward * 0.5f / (numrays - 1) * i;
-            Debug.DrawRay(ray_origin, current_grounded_forward.Perpendicular1() * ground_ray_dist, Color.red);
-            hit = Physics2D.Raycast(ray_origin, current_grounded_forward.Perpendicular1(), ground_ray_dist, LayerMask.GetMask("Ground"));
+            Debug.DrawRay(ray_origin, -Vector2.Perpendicular(current_grounded_forward) * ground_ray_dist, Color.red);
+            hit = Physics2D.Raycast(ray_origin, -Vector2.Perpendicular(current_grounded_forward), ground_ray_dist, LayerMask.GetMask("Ground"));
         }
         Vector2 normal = hit.normal;
-        if (hit && normal.Perpendicular1().y < 0.4f){ 
-            current_grounded_forward = normal.Perpendicular1();
+        if (hit && -Vector2.Perpendicular(normal).y < 0.4f){ 
+            current_grounded_forward = -Vector2.Perpendicular(normal);
         } else
         {
             current_grounded_forward = Vector2.right;
@@ -113,6 +119,11 @@ public class PlayerControllerNew : MonoBehaviour
     {
         previousPlayerState = currentPlayerState;
         currentPlayerState = newState;
+
+        if (currentPlayerState == PlayerState.FALLING)
+        {
+            started_falling = Time.time;
+        }
     }
 
     void UpdateGroundedState()
@@ -193,6 +204,12 @@ public class PlayerControllerNew : MonoBehaviour
         }
     }
 
+    void UpdateAnimationState() {
+        animator.SetBool("running", Mathf.Abs(moveInput.x) > 0.01f);
+        animator.SetBool("falling", currentPlayerState == PlayerState.FALLING && ((started_falling + falling_anim_delay < Time.time) || jumped));
+        animator.SetBool("on_wall", currentPlayerState == PlayerState.ON_WALL);
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -209,7 +226,7 @@ public class PlayerControllerNew : MonoBehaviour
         {
             UpdateOnWallState();
         }
-        
+
         if (avatarRoot)
         {
             if (currentPlayerState != PlayerState.ON_WALL)
@@ -224,8 +241,9 @@ public class PlayerControllerNew : MonoBehaviour
                 }
             }
         }
-
         debugText.GetComponent<Text>().text = "Position: " + transform.position.ToString() + "\nVelocity: " + velocity.ToString() + "\nState: " + currentPlayerState.ToString() + "\nPrevious State: " + previousPlayerState.ToString();
+        UpdateAnimationState();
+        jumped = false;
     }
 
     void FixedUpdate() 
