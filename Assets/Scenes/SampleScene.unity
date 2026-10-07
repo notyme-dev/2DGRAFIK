@@ -545,581 +545,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 124164721796922489, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.12414411
+    - target: {fileID: 317086469570010576, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].x
+      value: 0.081634045
       objectReference: {fileID: 0}
-    - target: {fileID: 124164721796922489, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.000004492001
-      objectReference: {fileID: 0}
-    - target: {fileID: 238135166745384766, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.115479596
-      objectReference: {fileID: 0}
-    - target: {fileID: 238135166745384766, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.00000074948167
-      objectReference: {fileID: 0}
-    - target: {fileID: 238135166745384766, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -43.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 238135166745384766, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 20.22761
-      objectReference: {fileID: 0}
-    - target: {fileID: 745966249975646466, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 745966249975646466, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 745966249975646466, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 745966249975646466, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 842095458651608642, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.1602824
-      objectReference: {fileID: 0}
-    - target: {fileID: 842095458651608642, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.0000004805623
-      objectReference: {fileID: 0}
-    - target: {fileID: 859716606989145031, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 859716606989145031, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 859716606989145031, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 878577405007145738, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.15564232
-      objectReference: {fileID: 0}
-    - target: {fileID: 878577405007145738, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.0000021848823
-      objectReference: {fileID: 0}
-    - target: {fileID: 878577405007145738, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 878577405007145738, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 33.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 888427898420421999, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 888427898420421999, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 888427898420421999, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 888427898420421999, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
+    - target: {fileID: 317086469570010576, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].y
+      value: 0.043259144
       objectReference: {fileID: 0}
     - target: {fileID: 891931648067467561, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.024851216
+      value: 0.024830597
       objectReference: {fileID: 0}
     - target: {fileID: 891931648067467561, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9996912
-      objectReference: {fileID: 0}
-    - target: {fileID: 934260856550768219, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 934260856550768219, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 934260856550768219, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 934260856550768219, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1005381479826395627, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.14676072
-      objectReference: {fileID: 0}
-    - target: {fileID: 1005381479826395627, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.0000015823167
-      objectReference: {fileID: 0}
-    - target: {fileID: 1166159640443956954, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.9996917
       objectReference: {fileID: 0}
     - target: {fileID: 1166159640443956954, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000010222196
-      objectReference: {fileID: 0}
-    - target: {fileID: 1170233246609378453, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 1170233246609378453, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1170233246609378453, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334691837408270905, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.1455343
-      objectReference: {fileID: 0}
-    - target: {fileID: 1334691837408270905, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.00000029988578
-      objectReference: {fileID: 0}
-    - target: {fileID: 1361649309878250150, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1361649309878250150, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1361649309878250150, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1361649309878250150, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379001183984178945, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379001183984178945, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379001183984178945, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379001183984178945, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600266693529677302, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600266693529677302, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600266693529677302, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1600266693529677302, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709256692506370219, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.123245485
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709256692506370219, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.0000023264436
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818611249646744264, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818611249646744264, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818611249646744264, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1910491370937960719, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1910491370937960719, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1910491370937960719, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1910491370937960719, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2187478698940827465, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.211
-      objectReference: {fileID: 0}
-    - target: {fileID: 2194999446626070642, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2194999446626070642, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2194999446626070642, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2194999446626070642, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2383452363238667816, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2383452363238667816, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2383452363238667816, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2383452363238667816, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
+      value: -0.000007703899
       objectReference: {fileID: 0}
     - target: {fileID: 2535436660469897740, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.96623313
+      value: 0.9662339
       objectReference: {fileID: 0}
     - target: {fileID: 2535436660469897740, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.25766972
-      objectReference: {fileID: 0}
-    - target: {fileID: 2535436660469897740, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 92.533
-      objectReference: {fileID: 0}
-    - target: {fileID: 2536650731342549855, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.07294856
-      objectReference: {fileID: 0}
-    - target: {fileID: 2536650731342549855, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.0000024726608
-      objectReference: {fileID: 0}
-    - target: {fileID: 2536650731342549855, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -41
-      objectReference: {fileID: 0}
-    - target: {fileID: 2615927761227885255, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2615927761227885255, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2615927761227885255, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653868178864644781, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653868178864644781, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2653868178864644781, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2688851911219216556, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2688851911219216556, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2688851911219216556, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2848474577267860244, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.6272621
-      objectReference: {fileID: 0}
-    - target: {fileID: 2848474577267860244, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06963584
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886203875723602592, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886203875723602592, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 2886203875723602592, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920376319537139869, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920376319537139869, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920376319537139869, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2920376319537139869, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3092672559762077353, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 3092672559762077353, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3092672559762077353, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 3147548891482764314, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3147548891482764314, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3147548891482764314, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3147548891482764314, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3441990595421269615, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -54.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3441990595421269615, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 20.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3441990595421269615, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3487799462170492703, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.21805769
-      objectReference: {fileID: 0}
-    - target: {fileID: 3487799462170492703, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.041480653
+      value: 0.2576667
       objectReference: {fileID: 0}
     - target: {fileID: 3558658777137217012, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9981719
+      value: 0.99817395
       objectReference: {fileID: 0}
     - target: {fileID: 3558658777137217012, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0604392
+      value: -0.06040524
       objectReference: {fileID: 0}
-    - target: {fileID: 3659678815950094317, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3659678815950094317, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 3659678815950094317, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3684869922684642508, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3684869922684642508, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 3684869922684642508, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3721416576933801619, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.1259716
-      objectReference: {fileID: 0}
-    - target: {fileID: 3721416576933801619, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.00000031013033
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763810828617351117, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.095177665
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763810828617351117, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.0000029318014
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763810828617351117, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -38.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3763810828617351117, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 41.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 3901657259900360835, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3901657259900360835, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 3901657259900360835, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4444789458492523044, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 182815026}
     - target: {fileID: 4444789458492523044, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: debugText
       value: 
       objectReference: {fileID: 1216756482}
     - target: {fileID: 4616899810906812915, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4616899810906812915, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000007860362
-      objectReference: {fileID: 0}
-    - target: {fileID: 4719230273890367860, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4719230273890367860, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4719230273890367860, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4719230273890367860, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797972989633924457, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797972989633924457, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797972989633924457, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4797972989633924457, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858274663860413712, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858274663860413712, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 4858274663860413712, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4927557840340793116, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.115384385
-      objectReference: {fileID: 0}
-    - target: {fileID: 4927557840340793116, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.0000019799918
-      objectReference: {fileID: 0}
-    - target: {fileID: 4954010186769070695, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.12482545
-      objectReference: {fileID: 0}
-    - target: {fileID: 4954010186769070695, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.00000056344993
-      objectReference: {fileID: 0}
-    - target: {fileID: 5021434780270752523, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5021434780270752523, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5021434780270752523, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5021434780270752523, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
+      value: -0.0000055283303
       objectReference: {fileID: 0}
     - target: {fileID: 5176692335020859261, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1129,161 +597,37 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0.07420851
       objectReference: {fileID: 0}
-    - target: {fileID: 5261130142924752832, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.1296286
-      objectReference: {fileID: 0}
-    - target: {fileID: 5261130142924752832, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.0000009164211
-      objectReference: {fileID: 0}
     - target: {fileID: 5309325128718756615, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.97401893
+      value: 0.85378855
       objectReference: {fileID: 0}
     - target: {fileID: 5309325128718756615, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.2264666
+      value: 0.5206199
       objectReference: {fileID: 0}
-    - target: {fileID: 5901573193564862508, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
+    - target: {fileID: 5893271137784180765, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].x
+      value: 0.09410858
       objectReference: {fileID: 0}
-    - target: {fileID: 5901573193564862508, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5901573193564862508, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5964847586293545079, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Size.x
-      value: 0.56273246
-      objectReference: {fileID: 0}
-    - target: {fileID: 5964847586293545079, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Size.y
-      value: 2.1306047
-      objectReference: {fileID: 0}
-    - target: {fileID: 5964847586293545079, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.014401555
-      objectReference: {fileID: 0}
-    - target: {fileID: 5964847586293545079, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.3165388
-      objectReference: {fileID: 0}
-    - target: {fileID: 6091916704084645746, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.13931167
-      objectReference: {fileID: 0}
-    - target: {fileID: 6091916704084645746, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.0000002593733
-      objectReference: {fileID: 0}
-    - target: {fileID: 6094918314588384060, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6094918314588384060, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6094918314588384060, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6094918314588384060, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6136387805355218285, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6136387805355218285, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6136387805355218285, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6136387805355218285, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.2
+    - target: {fileID: 5893271137784180765, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].y
+      value: -0.015857458
       objectReference: {fileID: 0}
     - target: {fileID: 6191200407049742652, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99093163
+      value: 0.9909319
       objectReference: {fileID: 0}
     - target: {fileID: 6191200407049742652, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.13436717
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385725862451427935, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385725862451427935, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385725862451427935, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6385725862451427935, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555291805686381889, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -28.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555291805686381889, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 44.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 6555291805686381889, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6606183491650181900, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6606183491650181900, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6606183491650181900, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6850224980985983027, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6850224980985983027, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6850224980985983027, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6850224980985983027, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
+      value: -0.13436472
       objectReference: {fileID: 0}
     - target: {fileID: 6999399104670275615, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.02754368
+      value: 0.027541168
       objectReference: {fileID: 0}
     - target: {fileID: 6999399104670275615, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9996206
+      value: -0.9996207
       objectReference: {fileID: 0}
     - target: {fileID: 7027751489715099193, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_Camera
@@ -1351,11 +695,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7081894431241215189, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 48.49
+      value: 2.55
       objectReference: {fileID: 0}
     - target: {fileID: 7081894431241215189, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.87
+      value: -3.34
       objectReference: {fileID: 0}
     - target: {fileID: 7081894431241215189, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1369,353 +713,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7105663313571172646, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7105663313571172646, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7105663313571172646, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7105663313571172646, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7199357930691362851, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7199357930691362851, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 7199357930691362851, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7227826403083065209, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7227826403083065209, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7227826403083065209, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7227826403083065209, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7236289727942299591, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.11661839
-      objectReference: {fileID: 0}
-    - target: {fileID: 7236289727942299591, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.0000003101303
-      objectReference: {fileID: 0}
-    - target: {fileID: 7360657470927563336, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7360657470927563336, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 7360657470927563336, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7385689104149105490, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8585726
+      value: 0.8585729
       objectReference: {fileID: 0}
     - target: {fileID: 7385689104149105490, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.512692
-      objectReference: {fileID: 0}
-    - target: {fileID: 7388185885414074461, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7388185885414074461, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7388185885414074461, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7794340121435718230, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7794340121435718230, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 7794340121435718230, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799566162119819491, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799566162119819491, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799566162119819491, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7799566162119819491, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
+      value: -0.51269144
       objectReference: {fileID: 0}
     - target: {fileID: 7936434380873998213, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_Name
       value: Player (PlatformerController)
       objectReference: {fileID: 0}
-    - target: {fileID: 7963925878721701622, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7963925878721701622, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 7963925878721701622, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7980655732421883210, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: current_camera_region
       value: 
       objectReference: {fileID: 1188900937}
-    - target: {fileID: 7991083995490398635, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991083995490398635, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 7991083995490398635, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8008986473310648818, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8008986473310648818, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8008986473310648818, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8038238821154766243, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8038238821154766243, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8038238821154766243, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079456446522502903, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079456446522502903, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079456446522502903, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079456446522502903, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8113562282940374072, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 8113562282940374072, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 8113562282940374072, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8113920485256023736, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8113920485256023736, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8113920485256023736, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8113920485256023736, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8198802935531303426, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.09739328
-      objectReference: {fileID: 0}
-    - target: {fileID: 8198802935531303426, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: 0.00000009872018
-      objectReference: {fileID: 0}
-    - target: {fileID: 8198802935531303426, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -31.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8198802935531303426, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 71
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506382050453475429, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506382050453475429, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506382050453475429, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8506382050453475429, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
     - target: {fileID: 8708840765966406982, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9837081
+      value: 0.9865135
       objectReference: {fileID: 0}
     - target: {fileID: 8708840765966406982, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.17977351
+      value: 0.16367991
       objectReference: {fileID: 0}
-    - target: {fileID: 8717372063303540122, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Mass
-      value: 20
+    - target: {fileID: 8877652988041608181, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].x
+      value: 0.016716719
       objectReference: {fileID: 0}
-    - target: {fileID: 8717372063303540122, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8717372063303540122, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8717372063303540122, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8736395462707334603, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.x
-      value: 0.12041755
-      objectReference: {fileID: 0}
-    - target: {fileID: 8736395462707334603, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_ConnectedAnchor.y
-      value: -0.0000013536775
-      objectReference: {fileID: 0}
-    - target: {fileID: 8736395462707334603, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -30.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8736395462707334603, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 28.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8825184281606421575, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -37.13
-      objectReference: {fileID: 0}
-    - target: {fileID: 8825184281606421575, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 8825184281606421575, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8919245209706427929, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8919245209706427929, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8919245209706427929, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 8919245209706427929, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9139595358548034037, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_LowerAngle
-      value: -48.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9139595358548034037, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngleLimits.m_UpperAngle
-      value: 21.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 9139595358548034037, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AutoConfigureConnectedAnchor
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164562470402508653, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_Interpolate
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164562470402508653, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_GravityScale
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164562470402508653, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_LinearDamping
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9164562470402508653, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      propertyPath: m_AngularDamping
-      value: 0.2
+    - target: {fileID: 8877652988041608181, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
+      propertyPath: m_TranslationOffsets.Array.data[0].y
+      value: -0.030093431
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4122231898013695934, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 243111354}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
 --- !u!1 &62906460
 GameObject:
@@ -2309,11 +1342,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &182815026 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6672972166274317655, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-  m_PrefabInstance: {fileID: 59770690}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &186230106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2792,23 +1820,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &243111350 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4122231898013695934, guid: 4a529b23e4bdd5e4c88f521e32e5d5fa, type: 3}
-  m_PrefabInstance: {fileID: 59770690}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &243111354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243111350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b85fe944dd03de4ebe19a520e5080a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!1 &254889001
 GameObject:
   m_ObjectHideFlags: 0

@@ -119,10 +119,19 @@ public class PlayerControllerNew : MonoBehaviour
     {
         previousPlayerState = currentPlayerState;
         currentPlayerState = newState;
+        animator.ResetTrigger("land");
 
-        if (currentPlayerState == PlayerState.FALLING)
+        if (newState == PlayerState.FALLING)
         {
             started_falling = Time.time;
+        }
+        if (newState == PlayerState.GROUNDED)
+        {
+            animator.SetTrigger("land");
+        }
+        if (newState == PlayerState.ON_WALL)
+        {
+            animator.SetTrigger("grab_wall");
         }
     }
 
@@ -135,7 +144,9 @@ public class PlayerControllerNew : MonoBehaviour
        if (jumpAction.IsPressed())
         {
             velocity.y = jumpForce;
+            jumped = true;
             ChangeState(PlayerState.FALLING);
+            animator.SetTrigger("jump");
         }
 
         RaycastHit2D hit = CheckGrounded();
@@ -153,7 +164,9 @@ public class PlayerControllerNew : MonoBehaviour
             velocity.y = jumpForce;
             velocity.x = avatarRoot.transform.localScale.x * maxSpeed * wall_jump_repel; // Jump away from the wall
             last_wall_jump_time = Time.time;
+            jumped = true;
             ChangeState(PlayerState.FALLING);
+            animator.SetTrigger("jump");
         }
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
         if (velocity.y < 0 && hit.collider != null)
@@ -167,6 +180,7 @@ public class PlayerControllerNew : MonoBehaviour
         {
             Debug.DrawRay(hand.transform.position, Vector2.right * -avatarRoot.transform.localScale.x * wall_ray_dist, Color.blue);
             ChangeState(PlayerState.FALLING);
+            animator.SetTrigger("drop");
         }
     }
 
@@ -207,7 +221,7 @@ public class PlayerControllerNew : MonoBehaviour
     void UpdateAnimationState() {
         animator.SetBool("running", Mathf.Abs(moveInput.x) > 0.01f);
         animator.SetBool("falling", currentPlayerState == PlayerState.FALLING && ((started_falling + falling_anim_delay < Time.time) || jumped));
-        animator.SetBool("on_wall", currentPlayerState == PlayerState.ON_WALL);
+        animator.SetBool("on_wall", currentPlayerState == PlayerState.ON_WALL || jumped);
     }
 
     // Update is called once per frame
@@ -241,7 +255,10 @@ public class PlayerControllerNew : MonoBehaviour
                 }
             }
         }
-        debugText.GetComponent<Text>().text = "Position: " + transform.position.ToString() + "\nVelocity: " + velocity.ToString() + "\nState: " + currentPlayerState.ToString() + "\nPrevious State: " + previousPlayerState.ToString();
+        if(debugText)
+        {
+            debugText.GetComponent<Text>().text = "Position: " + transform.position.ToString() + "\nVelocity: " + velocity.ToString() + "\nState: " + currentPlayerState.ToString() + "\nPrevious State: " + previousPlayerState.ToString();
+        }
         UpdateAnimationState();
         jumped = false;
     }

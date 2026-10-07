@@ -22,6 +22,7 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         float cur_min = player.GetComponent<CameraRegionChecker>().current_camera_region.end.transform.position.x;
         float cur_max = player.GetComponent<CameraRegionChecker>().current_camera_region.start.transform.position.x;
         float ylevel = player.GetComponent<CameraRegionChecker>().current_camera_region.y_level;
