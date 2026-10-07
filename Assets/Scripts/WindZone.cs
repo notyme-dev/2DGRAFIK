@@ -14,7 +14,6 @@ public class WindZone : MonoBehaviour
     public List<Collider2D> GetColliders () { return colliders; }
 
     private void OnTriggerEnter2D (Collider2D other) {
-        Debug.Log("WindZone: OnTriggerEnter: " + other.name);
         if (!colliders.Contains(other)) { colliders.Add(other); }
     }
 
@@ -36,6 +35,10 @@ public class WindZone : MonoBehaviour
             HingeJoint2D[] joints = a.gameObject.GetComponentsInChildren<HingeJoint2D>();
             foreach (HingeJoint2D j in joints)
             {
+                if (j.tag != "HingeBlow")
+                {
+                    continue;
+                }
                 Rigidbody2D rb = j.gameObject.GetComponent<Rigidbody2D>();
                 if (rb != null)
                 {

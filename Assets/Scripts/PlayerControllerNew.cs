@@ -119,7 +119,10 @@ public class PlayerControllerNew : MonoBehaviour
     {
         previousPlayerState = currentPlayerState;
         currentPlayerState = newState;
-        animator.ResetTrigger("land");
+        if (animator != null)
+        {
+            animator.ResetTrigger("land");
+        }
 
         if (newState == PlayerState.FALLING)
         {
@@ -127,11 +130,11 @@ public class PlayerControllerNew : MonoBehaviour
         }
         if (newState == PlayerState.GROUNDED)
         {
-            animator.SetTrigger("land");
+            SetAnimationTrigger("land");
         }
         if (newState == PlayerState.ON_WALL)
         {
-            animator.SetTrigger("grab_wall");
+            SetAnimationTrigger("grab_wall");
         }
     }
 
@@ -146,7 +149,7 @@ public class PlayerControllerNew : MonoBehaviour
             velocity.y = jumpForce;
             jumped = true;
             ChangeState(PlayerState.FALLING);
-            animator.SetTrigger("jump");
+            SetAnimationTrigger("jump");
         }
 
         RaycastHit2D hit = CheckGrounded();
@@ -166,7 +169,7 @@ public class PlayerControllerNew : MonoBehaviour
             last_wall_jump_time = Time.time;
             jumped = true;
             ChangeState(PlayerState.FALLING);
-            animator.SetTrigger("jump");
+            SetAnimationTrigger("jump");
         }
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
         if (velocity.y < 0 && hit.collider != null)
@@ -180,7 +183,7 @@ public class PlayerControllerNew : MonoBehaviour
         {
             Debug.DrawRay(hand.transform.position, Vector2.right * -avatarRoot.transform.localScale.x * wall_ray_dist, Color.blue);
             ChangeState(PlayerState.FALLING);
-            animator.SetTrigger("drop");
+            SetAnimationTrigger("drop");
         }
     }
 
@@ -218,7 +221,16 @@ public class PlayerControllerNew : MonoBehaviour
         }
     }
 
-    void UpdateAnimationState() {
+    private void SetAnimationTrigger(string triggerName)
+    {
+        if (animator != null)
+        {
+            animator.SetTrigger(triggerName);
+        }
+    }
+
+    private void UpdateAnimationState() {
+        if (animator == null) return;
         animator.SetBool("running", Mathf.Abs(moveInput.x) > 0.01f);
         animator.SetBool("falling", currentPlayerState == PlayerState.FALLING && ((started_falling + falling_anim_delay < Time.time) || jumped));
         animator.SetBool("on_wall", currentPlayerState == PlayerState.ON_WALL || jumped);
@@ -261,6 +273,10 @@ public class PlayerControllerNew : MonoBehaviour
         }
         UpdateAnimationState();
         jumped = false;
+        if (GetComponent<HingeFlutterPlayer>() != null && Mathf.Abs(velocity.x) > 0.01f)
+        {
+            GetComponent<HingeFlutterPlayer>().ApplyForces(-velocity.normalized);
+        }
     }
 
     void FixedUpdate() 
