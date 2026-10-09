@@ -18,8 +18,8 @@ TagManager:
   - Player
   - WindHinges
   - WindBoxes
-  - 
-  - 
+  - Velocity
+  - PlayerAttractor
   - 
   - 
   - 
@@ -48,8 +48,14 @@ TagManager:
   - name: BG
     uniqueID: 1353821147
     locked: 0
+  - name: BG_Decals
+    uniqueID: 787318145
+    locked: 0
   - name: player
     uniqueID: 3349963867
+    locked: 0
+  - name: grid_decals
+    uniqueID: 2761956521
     locked: 0
   - name: FG_sky
     uniqueID: 4015501701

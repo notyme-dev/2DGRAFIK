@@ -69,13 +69,13 @@ Material:
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
     - _contrast: 2.43
-    - _opacity: 0.14
-    - _power: 0.87
-    - _scale: 18.19
-    - _speed: 0.08
+    - _opacity: 0.44
+    - _power: 2.4
+    - _scale: 18.11
+    - _speed: 0.09
     m_Colors:
     - White: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.60875756, g: 0.7303904, b: 0.754717, a: 1}
+    - _Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _tiling: {r: 2.09, g: 0.96, b: 0, a: 0}
   m_BuildTextureStacks: []

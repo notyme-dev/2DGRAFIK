@@ -1,10 +1,14 @@
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class BackgroundShade : MonoBehaviour
 {
     [SerializeField] private Color shadeColor = new Color(0.0f, 0.0f, 0.0f); // Dark gray color
     [SerializeField] private float shadeAlpha = 0.6f; // Alpha value for the shade
     [SerializeField] private float fadeSpeed = 0.6f; // Alpha value for the shade
+    [SerializeField] private Light2D globalLight; // Reference to the global light source
+
+    private GameObject player; // Reference to the player object
 
     private bool isPlayerInside = false; // Flag to track if the player is inside the background shade area
     private float cur_alpha = 0.0f; // Current alpha value of the background shade
@@ -20,15 +24,38 @@ public class BackgroundShade : MonoBehaviour
         if (isPlayerInside) {
             // Gradually increase the alpha value to create a smooth transition effect
             cur_alpha = Mathf.Lerp(cur_alpha, shadeAlpha, Time.deltaTime * fadeSpeed);
+            if (globalLight != null)
+            {
+                globalLight.intensity = Mathf.Lerp(globalLight.intensity, 0.4f, Time.deltaTime * fadeSpeed);
+            }
+            if (player != null)
+            {
+                if (player.GetComponent<Light2D>() != null)
+                {
+                    player.GetComponent<Light2D>().intensity = Mathf.Lerp(player.GetComponent<Light2D>().intensity, 0.46f, Time.deltaTime * fadeSpeed);
+                }
+            }
         } else {
             // Gradually decrease the alpha value to create a smooth transition effect
             cur_alpha = Mathf.Lerp(cur_alpha, 0.0f, Time.deltaTime * fadeSpeed);
+            if (globalLight != null)
+            {
+                globalLight.intensity = Mathf.Lerp(globalLight.intensity, 1.0f, Time.deltaTime * fadeSpeed);
+            }
+            if (player != null)
+            {
+                if (player.GetComponent<Light2D>() != null)
+                {
+                    player.GetComponent<Light2D>().intensity = Mathf.Lerp(player.GetComponent<Light2D>().intensity, 0f, Time.deltaTime * fadeSpeed);
+                }
+            }
         }
         foreach (Transform child in transform)
         {
             if (child.GetComponent<SpriteRenderer>() == null) continue;
             child.GetComponent<SpriteRenderer>().color = new Color(shadeColor.r, shadeColor.g, shadeColor.b, cur_alpha);
         }
+        //0.46
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -36,6 +63,7 @@ public class BackgroundShade : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInside = true;
+            player = other.gameObject; // Store the reference to the player object
         }
     }
 
@@ -44,6 +72,7 @@ public class BackgroundShade : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInside = false;
+            player = other.gameObject; // Store the reference to the player object
         }
     }
 }
