@@ -2357,7 +2357,7 @@ ParticleSystem:
     multiplierCurve:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.12
+      scalar: 0.09
       minScalar: 1
       maxCurve:
         serializedVersion: 2
