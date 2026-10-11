@@ -269,7 +269,8 @@ public class PlayerControllerNew : MonoBehaviour
         }
         if(debugText)
         {
-            debugText.GetComponent<Text>().text = "Position: " + transform.position.ToString() + "\nVelocity: " + velocity.ToString() + "\nState: " + currentPlayerState.ToString() + "\nPrevious State: " + previousPlayerState.ToString();
+            debugText.GetComponent<Text>().text = "Position: " + transform.position.ToString() + "\nVelocity: " + velocity.ToString() + "\nState: " + currentPlayerState.ToString() + "\nPrevious State: " + previousPlayerState.ToString() + "\nFPS: " + (int)(1.0f / Time.deltaTime)
+            + "\nRes:" + Screen.width + "x" + Screen.height;
         }
         UpdateAnimationState();
         jumped = false;

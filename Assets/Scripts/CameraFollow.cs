@@ -1,15 +1,17 @@
+using System;
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
 
-     [SerializeField] private GameObject player; 
+    [SerializeField] private GameObject player; 
     [SerializeField] private float smoothSpeed_x = 2f;
     [SerializeField] private float smoothSpeed_y = 3f;
     [SerializeField] private float velocity_scalar = 1f;
-     [SerializeField] private float velocity_accum = 1f;
+    [SerializeField] private float velocity_accum = 1f;
+    [SerializeField] private bool unlock = false;
 
-      [SerializeField] private float y_offset = .5f;
+    [SerializeField] private float y_offset = .5f;
 
     private float velocity = 0.0f;
 
@@ -22,9 +24,15 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         float cur_min = player.GetComponent<CameraRegionChecker>().current_camera_region.end.transform.position.x;
         float cur_max = player.GetComponent<CameraRegionChecker>().current_camera_region.start.transform.position.x;
+
+        if(unlock)
+        {
+            cur_min = Mathf.Infinity;
+            cur_max = -Mathf.Infinity;
+        }
+
         float ylevel = player.GetComponent<CameraRegionChecker>().current_camera_region.y_level;
         float pvel = 0;
         Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
