@@ -75,7 +75,7 @@ public class BackgroundShade : MonoBehaviour
             }
             if (globalLight != null && globalLight.GetComponent<GlobalLightHandler>() != null)
             {
-                globalLight.GetComponent<GlobalLightHandler>().SetTargetIntensity(0.35f, fadeSpeed); // Set the target intensity for the global light 
+                globalLight.GetComponent<GlobalLightHandler>().SetTargetIntensity(0.3f, fadeSpeed); // Set the target intensity for the global light 
             }
         }
     }

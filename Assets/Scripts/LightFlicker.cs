@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 using Unity.Mathematics;
+using System.Threading;
 
 public class LightFlicker : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class LightFlicker : MonoBehaviour
     private float initial_inner = 0.0f;
     private float initial_intensity = 0.0f;
     private float r = 0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
