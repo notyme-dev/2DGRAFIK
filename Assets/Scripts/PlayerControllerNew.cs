@@ -144,7 +144,7 @@ public class PlayerControllerNew : MonoBehaviour
         //velocity.x = moveInput.x * maxSpeed;
         velocity = current_grounded_forward * moveInput.x * maxSpeed;
 
-       if (jumpAction.IsPressed())
+       if (jumpAction.WasPressedThisFrame())
         {
             velocity.y = jumpForce;
             jumped = true;
