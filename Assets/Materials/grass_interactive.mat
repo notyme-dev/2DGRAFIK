@@ -72,7 +72,7 @@ Material:
     - _EnableExternalAlpha: 0
     - _ZWrite: 0
     m_Colors:
-    - Vector2_2ad9dffd23234809bbb6d55338af2214: {r: 1, g: 0, b: 0, a: 0}
+    - Vector2_2ad9dffd23234809bbb6d55338af2214: {r: 1.43, g: 0.55, b: 0, a: 0}
     - White: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

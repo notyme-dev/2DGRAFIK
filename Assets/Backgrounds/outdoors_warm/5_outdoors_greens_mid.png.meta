@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: 1fb5ee49e5fc39d459f718eb0256dbb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1765590879283527464
+    second: 5_outdoors_greens_mid_0
+  - first:
+      213: 2206853136837287175
+    second: 5_outdoors_greens_mid_1
+  - first:
+      213: 3703774333144371292
+    second: 5_outdoors_greens_mid_2
+  - first:
+      213: -2118129524139781004
+    second: 5_outdoors_greens_mid_3
+  - first:
+      213: -7061413033782671946
+    second: 5_outdoors_greens_mid_4
+  - first:
+      213: -774315294731935453
+    second: 5_outdoors_greens_mid_5
+  - first:
+      213: 1529613269667070414
+    second: 5_outdoors_greens_mid_6
+  - first:
+      213: -2098590022465855742
+    second: 5_outdoors_greens_mid_7
+  - first:
+      213: -8423559946201103014
+    second: 5_outdoors_greens_mid_8
+  - first:
+      213: 7026117846453542730
+    second: 5_outdoors_greens_mid_9
+  - first:
+      213: 3568864177629237303
+    second: 5_outdoors_greens_mid_10
+  - first:
+      213: 3361581141459318745
+    second: 5_outdoors_greens_mid_11
+  - first:
+      213: 2325751132029006488
+    second: 5_outdoors_greens_mid_12
+  - first:
+      213: 8405201688068231362
+    second: 5_outdoors_greens_mid_13
+  - first:
+      213: 2036726446738670504
+    second: 5_outdoors_greens_mid_14
+  - first:
+      213: 5107496061488691605
+    second: 5_outdoors_greens_mid_15
+  - first:
+      213: -6497470360988237321
+    second: 5_outdoors_greens_mid_16
+  - first:
+      213: -4763954343092187863
+    second: 5_outdoors_greens_mid_17
+  - first:
+      213: -8458664751775792801
+    second: 5_outdoors_greens_mid_18
+  - first:
+      213: -6427068733219320972
+    second: 5_outdoors_greens_mid_19
+  - first:
+      213: -6541211656881988753
+    second: 5_outdoors_greens_mid_20
+  - first:
+      213: -6870595244163045288
+    second: 5_outdoors_greens_mid_21
+  - first:
+      213: -4360846303659366639
+    second: 5_outdoors_greens_mid_22
+  - first:
+      213: 2141593107385036055
+    second: 5_outdoors_greens_mid_23
+  - first:
+      213: -4756670050774731280
+    second: 5_outdoors_greens_mid_24
+  - first:
+      213: -8827835372035564829
+    second: 5_outdoors_greens_mid_25
+  - first:
+      213: -4252569703274650287
+    second: 5_outdoors_greens_mid_26
+  - first:
+      213: -1548828711762510681
+    second: 5_outdoors_greens_mid_27
+  - first:
+      213: -847030150714699984
+    second: 5_outdoors_greens_mid_28
+  - first:
+      213: -3458860515715462645
+    second: 5_outdoors_greens_mid_29
+  - first:
+      213: 1134530970316408268
+    second: 5_outdoors_greens_mid_30
+  - first:
+      213: 4942350868738823108
+    second: 5_outdoors_greens_mid_31
+  - first:
+      213: -5820525696649898340
+    second: 5_outdoors_greens_mid_32
+  - first:
+      213: -1996991677196814165
+    second: 5_outdoors_greens_mid_33
+  - first:
+      213: 7598882095038571821
+    second: 5_outdoors_greens_mid_34
+  - first:
+      213: 4450197094966767899
+    second: 5_outdoors_greens_mid_35
+  - first:
+      213: 4021304600197442349
+    second: 5_outdoors_greens_mid_36
+  - first:
+      213: -6709496053657316450
+    second: 5_outdoors_greens_mid_37
+  - first:
+      213: -1344260801332886049
+    second: 5_outdoors_greens_mid_38
+  - first:
+      213: 2291939963788274796
+    second: 5_outdoors_greens_mid_39
+  - first:
+      213: 6821526240877591291
+    second: 5_outdoors_greens_mid_40
+  - first:
+      213: 171423464967069511
+    second: 5_outdoors_greens_mid_41
+  - first:
+      213: -4565787786854253105
+    second: 5_outdoors_greens_mid_42
+  - first:
+      213: 5478889093706482405
+    second: 5_outdoors_greens_mid_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_0
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 566
+        width: 168
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f3d5adc83a08810800000000000000
+      internalID: 1765590879283527464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_1
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 703
+        width: 217
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d94ac4c3150ae10800000000000000
+      internalID: 2206853136837287175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_2
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 675
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50974fe123766330800000000000000
+      internalID: 3703774333144371292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_3
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 695
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474916d8b64ea92e0800000000000000
+      internalID: -2118129524139781004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 695
+        width: 21
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5021d3242d00e90800000000000000
+      internalID: -7061413033782671946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_5
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 538
+        width: 190
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321e95987541145f0800000000000000
+      internalID: -774315294731935453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 588
+        width: 39
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1ca3e1a274a3510800000000000000
+      internalID: 1529613269667070414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 583
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f5ebd4e7f40e2e0800000000000000
+      internalID: -2098590022465855742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_8
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 538
+        width: 136
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55897edbd0891b80800000000000000
+      internalID: -8423559946201103014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_9
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 591
+        width: 162
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f55e394f8c18160800000000000000
+      internalID: 7026117846453542730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_10
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 615
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73015379f07278130800000000000000
+      internalID: 3568864177629237303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_11
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 437
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7b55cdc3cb6ae20800000000000000
+      internalID: 3361581141459318745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_12
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 527
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8923d8c055ab64020800000000000000
+      internalID: 2325751132029006488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_13
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 476
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c012d2176645a470800000000000000
+      internalID: 8405201688068231362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_14
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 532
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3808a89e7e34c10800000000000000
+      internalID: 2036726446738670504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_15
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 482
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5997db47b9871e640800000000000000
+      internalID: 5107496061488691605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_16
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 466
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1caaab12954d5a0800000000000000
+      internalID: -6497470360988237321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_17
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 442
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d8fc5f3c803edb0800000000000000
+      internalID: -4763954343092187863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_18
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 441
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5149446939cc9a80800000000000000
+      internalID: -8458664751775792801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_19
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 465
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b41790a077ec6a0800000000000000
+      internalID: -6427068733219320972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_20
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 466
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b97e6a7a2f835a0800000000000000
+      internalID: -6541211656881988753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_21
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 405
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8586c24070eb6a0a0800000000000000
+      internalID: -6870595244163045288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_22
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 303
+        width: 130
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117ee4e34692b73c0800000000000000
+      internalID: -4360846303659366639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_23
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 384
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d2c13a59778bd10800000000000000
+      internalID: 2141593107385036055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_24
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 388
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f535dd6ac9ecfdb0800000000000000
+      internalID: -4756670050774731280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_25
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 355
+        width: 109
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea1132408a3d7580800000000000000
+      internalID: -8827835372035564829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_26
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 355
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155e9bdc266dbf4c0800000000000000
+      internalID: -4252569703274650287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_27
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 342
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac38712e74718ae0800000000000000
+      internalID: -1548828711762510681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_28
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 341
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fca90d09ebe34f0800000000000000
+      internalID: -847030150714699984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 303
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ac721dfa8afffc0800000000000000
+      internalID: -3458860515715462645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_30
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 311
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5836018e9aebf00800000000000000
+      internalID: 1134530970316408268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_31
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 288
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3558eede1c69440800000000000000
+      internalID: 4942350868738823108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_32
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 296
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c965625a7b6593fa0800000000000000
+      internalID: -5820525696649898340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_33
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 199
+        width: 174
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8b54d66a24944e0800000000000000
+      internalID: -1996991677196814165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_34
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 151
+        width: 146
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25a9dc3107a47960800000000000000
+      internalID: 7598882095038571821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 170
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1138f10ea642cd30800000000000000
+      internalID: 4450197094966767899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_36
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 220
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ba9646a3b8ec730800000000000000
+      internalID: 4021304600197442349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_37
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 220
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93dedb33e413e2a0800000000000000
+      internalID: -6709496053657316450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_38
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 211
+        width: 24
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd542136ce9385de0800000000000000
+      internalID: -1344260801332886049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_39
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 209
+        width: 142
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c2f1cf04b9ecf10800000000000000
+      internalID: 2291939963788274796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_40
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 181
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfab38d59fdeaae50800000000000000
+      internalID: 6821526240877591291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 120
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f578fabb4016200800000000000000
+      internalID: 171423464967069511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_42
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 108
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd3cbcc23013a0c0800000000000000
+      internalID: -4565787786854253105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_mid_43
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 89
+        width: 111
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e203223a9ce80c40800000000000000
+      internalID: 5478889093706482405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      5_outdoors_greens_mid_0: 1765590879283527464
+      5_outdoors_greens_mid_1: 2206853136837287175
+      5_outdoors_greens_mid_10: 3568864177629237303
+      5_outdoors_greens_mid_11: 3361581141459318745
+      5_outdoors_greens_mid_12: 2325751132029006488
+      5_outdoors_greens_mid_13: 8405201688068231362
+      5_outdoors_greens_mid_14: 2036726446738670504
+      5_outdoors_greens_mid_15: 5107496061488691605
+      5_outdoors_greens_mid_16: -6497470360988237321
+      5_outdoors_greens_mid_17: -4763954343092187863
+      5_outdoors_greens_mid_18: -8458664751775792801
+      5_outdoors_greens_mid_19: -6427068733219320972
+      5_outdoors_greens_mid_2: 3703774333144371292
+      5_outdoors_greens_mid_20: -6541211656881988753
+      5_outdoors_greens_mid_21: -6870595244163045288
+      5_outdoors_greens_mid_22: -4360846303659366639
+      5_outdoors_greens_mid_23: 2141593107385036055
+      5_outdoors_greens_mid_24: -4756670050774731280
+      5_outdoors_greens_mid_25: -8827835372035564829
+      5_outdoors_greens_mid_26: -4252569703274650287
+      5_outdoors_greens_mid_27: -1548828711762510681
+      5_outdoors_greens_mid_28: -847030150714699984
+      5_outdoors_greens_mid_29: -3458860515715462645
+      5_outdoors_greens_mid_3: -2118129524139781004
+      5_outdoors_greens_mid_30: 1134530970316408268
+      5_outdoors_greens_mid_31: 4942350868738823108
+      5_outdoors_greens_mid_32: -5820525696649898340
+      5_outdoors_greens_mid_33: -1996991677196814165
+      5_outdoors_greens_mid_34: 7598882095038571821
+      5_outdoors_greens_mid_35: 4450197094966767899
+      5_outdoors_greens_mid_36: 4021304600197442349
+      5_outdoors_greens_mid_37: -6709496053657316450
+      5_outdoors_greens_mid_38: -1344260801332886049
+      5_outdoors_greens_mid_39: 2291939963788274796
+      5_outdoors_greens_mid_4: -7061413033782671946
+      5_outdoors_greens_mid_40: 6821526240877591291
+      5_outdoors_greens_mid_41: 171423464967069511
+      5_outdoors_greens_mid_42: -4565787786854253105
+      5_outdoors_greens_mid_43: 5478889093706482405
+      5_outdoors_greens_mid_5: -774315294731935453
+      5_outdoors_greens_mid_6: 1529613269667070414
+      5_outdoors_greens_mid_7: -2098590022465855742
+      5_outdoors_greens_mid_8: -8423559946201103014
+      5_outdoors_greens_mid_9: 7026117846453542730
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

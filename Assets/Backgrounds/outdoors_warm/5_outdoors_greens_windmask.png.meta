@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: ebaee085290618846ae3a316507cd768
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4976064915874461680
+    second: 5_outdoors_greens_windmask_0
+  - first:
+      213: 3995124267108911750
+    second: 5_outdoors_greens_windmask_1
+  - first:
+      213: 7501667345315628571
+    second: 5_outdoors_greens_windmask_2
+  - first:
+      213: -8119388778140370968
+    second: 5_outdoors_greens_windmask_3
+  - first:
+      213: -6793037266768915236
+    second: 5_outdoors_greens_windmask_4
+  - first:
+      213: 3337807127918987795
+    second: 5_outdoors_greens_windmask_5
+  - first:
+      213: -7822216749773766116
+    second: 5_outdoors_greens_windmask_6
+  - first:
+      213: -7313642542045719899
+    second: 5_outdoors_greens_windmask_7
+  - first:
+      213: -6920931557338651964
+    second: 5_outdoors_greens_windmask_8
+  - first:
+      213: 9129847036517934203
+    second: 5_outdoors_greens_windmask_9
+  - first:
+      213: -8663929139428395802
+    second: 5_outdoors_greens_windmask_10
+  - first:
+      213: -5431480635236300504
+    second: 5_outdoors_greens_windmask_11
+  - first:
+      213: -8490546643204711456
+    second: 5_outdoors_greens_windmask_12
+  - first:
+      213: 5699973882904312279
+    second: 5_outdoors_greens_windmask_13
+  - first:
+      213: 3885139680300122267
+    second: 5_outdoors_greens_windmask_14
+  - first:
+      213: 9219777730054160501
+    second: 5_outdoors_greens_windmask_15
+  - first:
+      213: -1590937554965809327
+    second: 5_outdoors_greens_windmask_16
+  - first:
+      213: 714978167940102941
+    second: 5_outdoors_greens_windmask_17
+  - first:
+      213: -4352256311306413196
+    second: 5_outdoors_greens_windmask_18
+  - first:
+      213: -1622917962984808546
+    second: 5_outdoors_greens_windmask_19
+  - first:
+      213: -3808367833709135662
+    second: 5_outdoors_greens_windmask_20
+  - first:
+      213: -8940801903845457528
+    second: 5_outdoors_greens_windmask_21
+  - first:
+      213: -1998815927856419032
+    second: 5_outdoors_greens_windmask_22
+  - first:
+      213: 3479709755722901352
+    second: 5_outdoors_greens_windmask_23
+  - first:
+      213: -8919722840816611264
+    second: 5_outdoors_greens_windmask_24
+  - first:
+      213: -9002883616068517324
+    second: 5_outdoors_greens_windmask_25
+  - first:
+      213: -6832911370824712032
+    second: 5_outdoors_greens_windmask_26
+  - first:
+      213: -6849399580750711507
+    second: 5_outdoors_greens_windmask_27
+  - first:
+      213: 3307535879126045732
+    second: 5_outdoors_greens_windmask_28
+  - first:
+      213: -4515519132615941441
+    second: 5_outdoors_greens_windmask_29
+  - first:
+      213: -6860392190048489965
+    second: 5_outdoors_greens_windmask_30
+  - first:
+      213: -9097363272056834086
+    second: 5_outdoors_greens_windmask_31
+  - first:
+      213: 288427463592597137
+    second: 5_outdoors_greens_windmask_32
+  - first:
+      213: -7416207256745581816
+    second: 5_outdoors_greens_windmask_33
+  - first:
+      213: 5923354065538155156
+    second: 5_outdoors_greens_windmask_34
+  - first:
+      213: 7310646852997688697
+    second: 5_outdoors_greens_windmask_35
+  - first:
+      213: -1115632241554113390
+    second: 5_outdoors_greens_windmask_36
+  - first:
+      213: 8649880367206121505
+    second: 5_outdoors_greens_windmask_37
+  - first:
+      213: -4875126771286954900
+    second: 5_outdoors_greens_windmask_38
+  - first:
+      213: -1841705148425068301
+    second: 5_outdoors_greens_windmask_39
+  - first:
+      213: -5521233889085518476
+    second: 5_outdoors_greens_windmask_40
+  - first:
+      213: -107678929592565439
+    second: 5_outdoors_greens_windmask_41
+  - first:
+      213: -3411758430959217312
+    second: 5_outdoors_greens_windmask_42
+  - first:
+      213: 3249394107392987894
+    second: 5_outdoors_greens_windmask_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_0
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 566
+        width: 168
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018c406c25771fab0800000000000000
+      internalID: -4976064915874461680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_1
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 703
+        width: 217
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ac1969a58817730800000000000000
+      internalID: 3995124267108911750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_2
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 675
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b168fac74b64b1860800000000000000
+      internalID: 7501667345315628571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_3
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 695
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e776a5bce2225f80800000000000000
+      internalID: -8119388778140370968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 695
+        width: 21
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd49f30d8984ab1a0800000000000000
+      internalID: -6793037266768915236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_5
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 538
+        width: 190
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ac06cf5e5425e20800000000000000
+      internalID: 3337807127918987795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 588
+        width: 39
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12cf995f47e17390800000000000000
+      internalID: -7822216749773766116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_7
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 583
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a21e2b7bd8b08a90800000000000000
+      internalID: -7313642542045719899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_8
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 538
+        width: 136
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2e902da69e3ff90800000000000000
+      internalID: -6920931557338651964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_9
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 591
+        width: 162
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74ed49f18bb3be70800000000000000
+      internalID: 9129847036517934203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_10
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 615
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4f635e95a83c780800000000000000
+      internalID: -8663929139428395802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_11
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 437
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829c354b3218f94b0800000000000000
+      internalID: -5431480635236300504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_12
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 527
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebd5e610d48b2a80800000000000000
+      internalID: -8490546643204711456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_13
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 476
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9f387fb006a1f40800000000000000
+      internalID: 5699973882904312279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_14
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 532
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90401374f9cae530800000000000000
+      internalID: 3885139680300122267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_15
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 482
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5708feb3ffa33ff70800000000000000
+      internalID: 9219777730054160501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_16
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 466
+        width: 87
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1573f6019badbe9e0800000000000000
+      internalID: -1590937554965809327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_17
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 442
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bba3a0bdc1ce900800000000000000
+      internalID: 714978167940102941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_18
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 441
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b1121b1fda993c0800000000000000
+      internalID: -4352256311306413196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_19
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 465
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f90b416bc3a79e0800000000000000
+      internalID: -1622917962984808546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_20
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 466
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d83eb102a5f52bc0800000000000000
+      internalID: -3808367833709135662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_21
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 405
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881c722f904ebe380800000000000000
+      internalID: -8940801903845457528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_22
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 303
+        width: 130
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fa9b8f087c244e0800000000000000
+      internalID: -1998815927856419032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_23
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 384
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867235726996a4030800000000000000
+      internalID: 3479709755722901352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_24
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 388
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0401032c557c63480800000000000000
+      internalID: -8919722840816611264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_25
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 355
+        width: 109
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4324d0eec055f0380800000000000000
+      internalID: -9002883616068517324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_26
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 355
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a004408f4f9c21a0800000000000000
+      internalID: -6832911370824712032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_27
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 342
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25f4a8fe5b02f0a0800000000000000
+      internalID: -6849399580750711507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_28
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 341
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424da25ab5ab6ed20800000000000000
+      internalID: 3307535879126045732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_29
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 303
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb262fbe547a551c0800000000000000
+      internalID: -4515519132615941441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_30
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 311
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31eab4ca6adfac0a0800000000000000
+      internalID: -6860392190048489965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_31
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 288
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7fd50dd4cafb180800000000000000
+      internalID: -9097363272056834086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_32
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 296
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19657eeff33b00400800000000000000
+      internalID: 288427463592597137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_33
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 199
+        width: 174
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8036101fac6541990800000000000000
+      internalID: -7416207256745581816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_34
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 151
+        width: 146
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492844ba32bf33250800000000000000
+      internalID: 5923354065538155156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 170
+        width: 16
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d214f4492a47560800000000000000
+      internalID: 7310646852997688697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_36
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 220
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cb13e136a7480f0800000000000000
+      internalID: -1115632241554113390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_37
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 220
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12042fc6d5c8a0870800000000000000
+      internalID: 8649880367206121505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_38
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 211
+        width: 24
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ca172f702185cb0800000000000000
+      internalID: -4875126771286954900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_39
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 209
+        width: 142
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0ad1fdce2f076e0800000000000000
+      internalID: -1841705148425068301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_40
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 181
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d8537d703a063b0800000000000000
+      internalID: -5521233889085518476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_41
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 120
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14147d38592718ef0800000000000000
+      internalID: -107678929592565439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_42
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 108
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0655b3788cff6a0d0800000000000000
+      internalID: -3411758430959217312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5_outdoors_greens_windmask_43
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 89
+        width: 111
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2186289ba281d20800000000000000
+      internalID: 3249394107392987894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      5_outdoors_greens_windmask_0: -4976064915874461680
+      5_outdoors_greens_windmask_1: 3995124267108911750
+      5_outdoors_greens_windmask_10: -8663929139428395802
+      5_outdoors_greens_windmask_11: -5431480635236300504
+      5_outdoors_greens_windmask_12: -8490546643204711456
+      5_outdoors_greens_windmask_13: 5699973882904312279
+      5_outdoors_greens_windmask_14: 3885139680300122267
+      5_outdoors_greens_windmask_15: 9219777730054160501
+      5_outdoors_greens_windmask_16: -1590937554965809327
+      5_outdoors_greens_windmask_17: 714978167940102941
+      5_outdoors_greens_windmask_18: -4352256311306413196
+      5_outdoors_greens_windmask_19: -1622917962984808546
+      5_outdoors_greens_windmask_2: 7501667345315628571
+      5_outdoors_greens_windmask_20: -3808367833709135662
+      5_outdoors_greens_windmask_21: -8940801903845457528
+      5_outdoors_greens_windmask_22: -1998815927856419032
+      5_outdoors_greens_windmask_23: 3479709755722901352
+      5_outdoors_greens_windmask_24: -8919722840816611264
+      5_outdoors_greens_windmask_25: -9002883616068517324
+      5_outdoors_greens_windmask_26: -6832911370824712032
+      5_outdoors_greens_windmask_27: -6849399580750711507
+      5_outdoors_greens_windmask_28: 3307535879126045732
+      5_outdoors_greens_windmask_29: -4515519132615941441
+      5_outdoors_greens_windmask_3: -8119388778140370968
+      5_outdoors_greens_windmask_30: -6860392190048489965
+      5_outdoors_greens_windmask_31: -9097363272056834086
+      5_outdoors_greens_windmask_32: 288427463592597137
+      5_outdoors_greens_windmask_33: -7416207256745581816
+      5_outdoors_greens_windmask_34: 5923354065538155156
+      5_outdoors_greens_windmask_35: 7310646852997688697
+      5_outdoors_greens_windmask_36: -1115632241554113390
+      5_outdoors_greens_windmask_37: 8649880367206121505
+      5_outdoors_greens_windmask_38: -4875126771286954900
+      5_outdoors_greens_windmask_39: -1841705148425068301
+      5_outdoors_greens_windmask_4: -6793037266768915236
+      5_outdoors_greens_windmask_40: -5521233889085518476
+      5_outdoors_greens_windmask_41: -107678929592565439
+      5_outdoors_greens_windmask_42: -3411758430959217312
+      5_outdoors_greens_windmask_43: 3249394107392987894
+      5_outdoors_greens_windmask_5: 3337807127918987795
+      5_outdoors_greens_windmask_6: -7822216749773766116
+      5_outdoors_greens_windmask_7: -7313642542045719899
+      5_outdoors_greens_windmask_8: -6920931557338651964
+      5_outdoors_greens_windmask_9: 9129847036517934203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
