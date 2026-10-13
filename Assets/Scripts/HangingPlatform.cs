@@ -12,7 +12,7 @@ public class HangingPlatform : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb == null) return;
@@ -27,6 +27,7 @@ public class HangingPlatform : MonoBehaviour
 
         transform.rotation = Quaternion.FromToRotation(Vector2.right, direction);
         transform.position = target_pos;
+        rb.linearVelocityY = Mathf.Clamp(rb.linearVelocityY,-3,3);
         //rb.MovePosition(target_pos);
     }
 }

@@ -29,12 +29,10 @@ public class PlayerControllerNew : MonoBehaviour
     [SerializeField] private float gravityMultiplier = 6f;
     [SerializeField] private float terminal_y = 50f;
     [SerializeField] private float gravityMultiplierWall = 1f;
-
     [SerializeField] private float jump_hold_deacceleration = 7f;
     [SerializeField] private float jump_deacceleration = 30f;
     [SerializeField] private float wall_jump_repel = 1.0f;
     [SerializeField] private float wall_jump_force = 1.0f;
-
      [SerializeField] private float falling_anim_delay = 0.1f;
 
     private Vector2 velocity;
@@ -44,18 +42,14 @@ public class PlayerControllerNew : MonoBehaviour
     private Rigidbody2D rb;
     private float ground_ray_dist = 1f;
     private float wall_ray_dist = 1f;
-
     private float last_wall_jump_time = 0.0f;
-
     public GameObject debugText;
-
     private Vector2 current_grounded_forward = Vector2.right;
-
     private float ground_hit_distance = 0.1f;
-
     private float started_falling = 0.0f;
-
     private bool jumped = false;
+    private float coyote = 0.1f;
+    private bool has_coyoted = false;
 
     
     enum PlayerState
@@ -131,6 +125,7 @@ public class PlayerControllerNew : MonoBehaviour
         if (newState == PlayerState.GROUNDED)
         {
             SetAnimationTrigger("land");
+            has_coyoted = false;
         }
         if (newState == PlayerState.ON_WALL)
         {
@@ -144,12 +139,13 @@ public class PlayerControllerNew : MonoBehaviour
         //velocity.x = moveInput.x * maxSpeed;
         velocity = current_grounded_forward * moveInput.x * maxSpeed;
 
-       if (jumpAction.WasPressedThisFrame())
+       if (jumpAction.triggered)
         {
             velocity.y = jumpForce;
             jumped = true;
             ChangeState(PlayerState.FALLING);
             SetAnimationTrigger("jump");
+            has_coyoted = true;
         }
 
         RaycastHit2D hit = CheckGrounded();
@@ -170,6 +166,7 @@ public class PlayerControllerNew : MonoBehaviour
             jumped = true;
             ChangeState(PlayerState.FALLING);
             SetAnimationTrigger("jump");
+            has_coyoted = true;
         }
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, ground_ray_dist, LayerMask.GetMask("Ground"));
         if (velocity.y < 0 && hit.collider != null)
@@ -192,6 +189,13 @@ public class PlayerControllerNew : MonoBehaviour
         if (previousPlayerState != PlayerState.ON_WALL) {
              velocity.x = moveInput.x * maxSpeed;
              velocity.x = Mathf.MoveTowards(velocity.x, 0, Time.deltaTime * maxSpeed * 2); // Apply friction when in the air
+        }
+        if (jumpAction.triggered && started_falling + coyote > Time.time && previousPlayerState == PlayerState.GROUNDED && !has_coyoted)
+        {
+            velocity.y = jumpForce;
+            jumped = true;
+            SetAnimationTrigger("jump");
+            has_coyoted = true;
         }
         // Check for ground
         RaycastHit2D hit = CheckGrounded();
