@@ -7,12 +7,14 @@ using TMPro;
 using UnityEngine.UI;
 using System;
 using Unity.VisualScripting;
+using UnityEngine.Animations;
 
 public class PlayerControllerNew : MonoBehaviour
 {
     // These variables hold the key-bind reference. They are then to be initialized in void Start.
     InputAction moveAction;
     InputAction jumpAction;
+    InputAction interactAction;
     // Serialized referenses.
     [Header("References")]
     [SerializeField] InputActionAsset inputActionAsset;
@@ -33,7 +35,9 @@ public class PlayerControllerNew : MonoBehaviour
     [SerializeField] private float jump_deacceleration = 30f;
     [SerializeField] private float wall_jump_repel = 1.0f;
     [SerializeField] private float wall_jump_force = 1.0f;
-     [SerializeField] private float falling_anim_delay = 0.1f;
+    [SerializeField] private float falling_anim_delay = 0.1f;
+    [SerializeField] private GameObject pickup;
+    [SerializeField] private GameObject handik;
 
     private Vector2 velocity;
     private Vector2 moveInput;
@@ -50,6 +54,8 @@ public class PlayerControllerNew : MonoBehaviour
     private bool jumped = false;
     private float coyote = 0.1f;
     private bool has_coyoted = false;
+    private bool isPickingUp = false;
+    private bool hasPickedUp = false;
 
     
     enum PlayerState
@@ -67,6 +73,7 @@ public class PlayerControllerNew : MonoBehaviour
             inputActionAsset.Enable();
             moveAction = inputActionAsset.FindAction("Move");
             jumpAction = inputActionAsset.FindAction("Jump");
+            interactAction = inputActionAsset.FindAction("Interact");
             if (moveAction != null) moveAction.Enable();
             if (jumpAction != null) jumpAction.Enable();
         }
@@ -135,6 +142,26 @@ public class PlayerControllerNew : MonoBehaviour
 
     void UpdateGroundedState()
     {
+        /// !!!!!!!! VERY JANK DO NOT DO !!!!!!!!!!!!!
+        if (isPickingUp)
+        {
+            rb.linearVelocity = Vector2.zero;
+            AnimatorClipInfo[] aci = animator.GetCurrentAnimatorClipInfo(0);
+            AnimatorStateInfo asi = animator.GetCurrentAnimatorStateInfo(0);
+            Debug.Log(aci[0].clip.name + " " + asi.normalizedTime);
+            if(aci[0].clip.name == "pickup" && asi.normalizedTime > 0.1f)
+            {
+                // parent interactable to hand
+                pickup.transform.position = handik.transform.position;
+            }
+            if(aci[0].clip.name == "pickup" && asi.normalizedTime > .98f)
+            {
+                pickup.GetComponent<SpriteRenderer>().enabled = false;
+                isPickingUp = false;
+                hasPickedUp = true;
+            }
+            return;
+        }
 
         //velocity.x = moveInput.x * maxSpeed;
         velocity = current_grounded_forward * moveInput.x * maxSpeed;
@@ -146,6 +173,12 @@ public class PlayerControllerNew : MonoBehaviour
             ChangeState(PlayerState.FALLING);
             SetAnimationTrigger("jump");
             has_coyoted = true;
+        }
+
+        if (interactAction.triggered && Vector2.Distance(pickup.transform.position, transform.position) < 1.5f && !hasPickedUp)
+        {
+            SetAnimationTrigger("interact");
+            isPickingUp = true;
         }
 
         RaycastHit2D hit = CheckGrounded();
@@ -261,11 +294,11 @@ public class PlayerControllerNew : MonoBehaviour
         {
             if (currentPlayerState != PlayerState.ON_WALL)
             {
-                if (moveInput.x > 0.01f)
+                if (moveInput.x > 0.01f && !isPickingUp)
                 {
                     avatarRoot.transform.localScale = new Vector3(1, 1, 1);
                 }
-                else if (moveInput.x < -0.01f)
+                else if (moveInput.x < -0.01f && !isPickingUp)
                 {
                     avatarRoot.transform.localScale = new Vector3(-1, 1, 1);
                 }
