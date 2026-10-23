@@ -8,6 +8,7 @@ using UnityEngine.UI;
 using System;
 using Unity.VisualScripting;
 using UnityEngine.Animations;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerControllerNew : MonoBehaviour
 {
@@ -148,20 +149,26 @@ public class PlayerControllerNew : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             AnimatorClipInfo[] aci = animator.GetCurrentAnimatorClipInfo(0);
             AnimatorStateInfo asi = animator.GetCurrentAnimatorStateInfo(0);
-            Debug.Log(aci[0].clip.name + " " + asi.normalizedTime);
-            if(aci[0].clip.name == "pickup" && asi.normalizedTime > 0.1f)
+            
+            if(aci[0].clip.name == "pickup" && asi.normalizedTime > 0.01f)
             {
                 // parent interactable to hand
+                pickup.GetComponent<Light2D>().enabled = false;
                 pickup.transform.position = handik.transform.position;
+                Vector3 ea = -handik.transform.localEulerAngles;
+                ea.z -= 90f;
+                pickup.transform.localEulerAngles = ea;
             }
-            if(aci[0].clip.name == "pickup" && asi.normalizedTime > .98f)
+            if(aci[0].clip.name == "pickup" && asi.normalizedTime > .9f)
             {
                 pickup.GetComponent<SpriteRenderer>().enabled = false;
                 isPickingUp = false;
                 hasPickedUp = true;
+                Destroy(pickup);
             }
             return;
         }
+        /// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
         //velocity.x = moveInput.x * maxSpeed;
         velocity = current_grounded_forward * moveInput.x * maxSpeed;
@@ -179,6 +186,13 @@ public class PlayerControllerNew : MonoBehaviour
         {
             SetAnimationTrigger("interact");
             isPickingUp = true;
+            foreach(Transform child in pickup.transform)
+            {
+                if(child.GetComponent<TextMeshPro>() != null)
+                {
+                    child.GetComponent<TextMeshPro>().enabled = false;
+                }
+            }
         }
 
         RaycastHit2D hit = CheckGrounded();
