@@ -1,5 +1,7 @@
 little project for the two-d graphics kurs in skövde högskols 
 
+this is a unity project thing
+
 **LICENSE**
 
 Copyright 2026 notyme
