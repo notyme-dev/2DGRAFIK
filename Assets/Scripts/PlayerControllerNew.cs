@@ -95,7 +95,6 @@ public class PlayerControllerNew : MonoBehaviour
         start_pos = new Vector2(foot.transform.position.x, foot.transform.position.y) - current_grounded_forward * 0.3f;
         hit = Physics2D.Raycast(start_pos, -Vector2.Perpendicular(current_grounded_forward), ground_ray_dist, LayerMask.GetMask("Ground"));
         
-        float shortest = 534543f;
         for(int i = 1; i < numrays; i++)
         {
             // weird early exit because we begin check before loop starts T_T STUPID BRAIN IDIOT THING
@@ -124,6 +123,7 @@ public class PlayerControllerNew : MonoBehaviour
         if (animator != null)
         {
             animator.ResetTrigger("land");
+            animator.ResetTrigger("grab_wall");
         }
 
         if (newState == PlayerState.FALLING)
@@ -133,10 +133,12 @@ public class PlayerControllerNew : MonoBehaviour
         if (newState == PlayerState.GROUNDED)
         {
             SetAnimationTrigger("land");
+            animator.ResetTrigger("jump");
             has_coyoted = false;
         }
         if (newState == PlayerState.ON_WALL)
         {
+            animator.ResetTrigger("jump");
             SetAnimationTrigger("grab_wall");
         }
     }
@@ -171,7 +173,8 @@ public class PlayerControllerNew : MonoBehaviour
         /// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
         //velocity.x = moveInput.x * maxSpeed;
-        velocity = current_grounded_forward * moveInput.x * maxSpeed;
+
+        velocity = current_grounded_forward * Mathf.Sign(moveInput.x) * moveInput.magnitude * maxSpeed;
 
        if (jumpAction.triggered)
         {
@@ -234,7 +237,7 @@ public class PlayerControllerNew : MonoBehaviour
     private void UpdateFallingState()
     {   
         if (previousPlayerState != PlayerState.ON_WALL) {
-             velocity.x = moveInput.x * maxSpeed;
+             velocity.x = Mathf.Sign(moveInput.x) * moveInput.magnitude * maxSpeed;
              velocity.x = Mathf.MoveTowards(velocity.x, 0, Time.deltaTime * maxSpeed * 2); // Apply friction when in the air
         }
         if (jumpAction.triggered && started_falling + coyote > Time.time && previousPlayerState == PlayerState.GROUNDED && !has_coyoted)
